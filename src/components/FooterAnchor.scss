@@ -1,0 +1,56 @@
+.footer-anchor {
+  width: 100%;
+  height: 50px;
+  background: #27FE0C;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .buy-me-coffee-button {
+    height: 45px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    border: 2px solid;
+    padding: 0 18px;
+    font-family: "Cookie", cursive;
+    line-height: 33px;
+    background-color: #FD0;
+    color: #000;
+    align-items: center;
+    display: flex;
+    outline: none;
+    font-weight: 900;
+    margin-left: -10px;
+    scale: 0.8;
+
+    .btn-icon {
+      align-content: center;
+
+      svg {
+        display: flex;
+        align-items: center;
+        height: 1.4rem;
+        align-content: center;
+      }
+    }
+
+    .btn-custom-text {
+      margin-left: 8px;
+    }
+  }
+}
+
+.ant-tooltip-inner {
+  color: #000 !important;
+}
+
+@media (max-width: 425px) {
+  .footer-anchor__title {
+    font-size: 0.9rem;
+  }
+  .buy-me-coffee-button{
+    white-space: nowrap;
+  }
+}

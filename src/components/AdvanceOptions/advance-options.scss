@@ -1,0 +1,36 @@
+.secret-input {
+  .iv-option {
+    display: flex;
+    gap: 0.5rem;
+
+    span {
+      align-content: center;
+    }
+
+    .ant-input-outlined {
+      background: transparent !important;
+      color: white !important;
+      padding: 0 0.5rem !important;
+      font-size: 0.8rem !important;
+      width: fit-content !important;
+      height: fit-content !important;
+
+      .ant-input-show-count-suffix {
+        color: white;
+      }
+
+      input::placeholder {
+        color: white;
+      }
+    
+      input {
+        background: transparent;
+        color: white;
+        font-size: 0.8rem !important;
+        height: 1.5rem;
+        width: 10rem;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
